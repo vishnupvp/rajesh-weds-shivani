@@ -1,0 +1,74 @@
+$welcomeTextColor: #eaeaea;
+
+.wrapper{
+  background: url('/images/cover2.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.inner{
+  background-color: rgba(0, 0, 0, 0.75);
+  background-image: url('/images/frame.png');
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.leadText{
+  font-family: 'Mr Dafoe', cursive;
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  line-height: 1;
+
+  small{
+    font-size: 50%;
+  }
+}
+
+.welcomeText{
+  font-size: 1.75rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  color: $welcomeTextColor;
+
+}
+
+
+.welcomeText2{
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  color: $welcomeTextColor;
+}
+
+.divider{
+  max-width: 40%;
+  margin-bottom: -.5rem;
+  animation: zoom 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+  transform: scaleX(0);
+
+}
+
+@keyframes zoom {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.arrowSection{
+  margin-top: 2rem;
+  opacity: 0.5;
+}
