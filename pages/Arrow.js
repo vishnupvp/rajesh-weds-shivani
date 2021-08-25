@@ -1,7 +1,7 @@
 import React from "react";
 import styles from '../styles/Arrow.module.scss'
 
-export default Arrow () => {
+ const Arrow = () => {
     return (
         <div className={styles.container}>
             <div className={styles.chevron}></div>
@@ -10,3 +10,5 @@ export default Arrow () => {
         </div>
     )
 }
+
+export default Arrow;
