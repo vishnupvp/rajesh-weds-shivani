@@ -16,19 +16,22 @@ export default function Home() {
       <div className={styles.wrapper}>
           <div className={styles.inner}>
           {/* <Timer /> */}
-          <img className={styles.divider} src="/images/divider.png" alt="Vercel Logo" />
+          {/* <img className={styles.divider} src="/images/divider.png" alt="Vercel Logo" /> */}
 
             <div className={styles.welcomeText}>
-              Together with their families
+              Together with their families,
             </div>
+             
+          <img className={styles.mainImg} src="/images/rajesh-shivani.png" alt="Vercel Logo" />
+          <div className={styles.welcomeText2}>
+             request the honor of your presence on the auspicious occasion of the wedding ceremony
+             </div>
             <div className={styles.leadText}>
               <div>Rajesh</div>
               <small>&amp;</small>
               <div>Shivani</div>
               </div>
-              <div className={styles.welcomeText2}>
-             request the honor of your presence and blessings on the auspicious occasion of the wedding ceremony
-             </div>
+            
 
               <div className={styles.arrowSection}>
               <Arrow />

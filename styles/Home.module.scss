@@ -26,11 +26,18 @@ $welcomeTextColor: #eaeaea;
   font-family: 'Mr Dafoe', cursive;
   text-align: center;
   color: #fff;
-  font-size: 4rem;
-  line-height: 1;
+  font-size: 3rem;
+  // line-height: 3rem;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
 
   small{
     font-size: 50%;
+    display: block;
+    margin: 0 1rem;
+    margin-left: 1.5rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -59,6 +66,11 @@ $welcomeTextColor: #eaeaea;
 
 }
 
+.mainImg{
+  max-width: 12rem;
+  margin-bottom: 1rem;
+}
+
 @keyframes zoom {
   0% {
     transform: scaleX(0);
@@ -69,6 +81,6 @@ $welcomeTextColor: #eaeaea;
 }
 
 .arrowSection{
-  margin-top: 2rem;
+  margin-top: 1rem;
   opacity: 0.5;
 }
