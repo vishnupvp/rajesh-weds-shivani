@@ -17,7 +17,7 @@ export default function Home() {
       <div className={styles.wrapper}>
         <div className={styles.inner}>
           <section className={styles.contentSection}>
-            <img className={styles.flower} src="/images/frame.png" alt="Frame" />
+            <img className={`${styles.flower} ${styles.flowerTop}`} src="/images/frame.png" alt="Frame" />
             <img className={styles.divider} src="/images/divider.png" alt="Divider" />
             <div className={styles.welcomeText}>
               Together with their families,
@@ -68,7 +68,7 @@ export default function Home() {
               <iframe className={styles.iframe} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.7574271775884!2d80.2061123152703!3d13.05110651665881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266c2215d05b1%3A0xc998f6b89098b46f!2sHotel%20Green%20Park!5e0!3m2!1sen!2sin!4v1630072027115!5m2!1sen!2sin" allowFullScreen loading="lazy"></iframe>
             </div>
             <div className="mt-4">
-              <img className={styles.flower} src="/images/frame.png" alt="Frame" />
+              <img className={`${styles.flower} ${styles.flowerBottom}`} src="/images/frame.png" alt="Frame" />
             </div>
           </section>
         </div>
