@@ -1,4 +1,5 @@
 $welcomeTextColor: #eaeaea;
+$timingsTextColor: #bfbfbf;
 
 .wrapper{
   background: url('/images/cover2.jpg');
@@ -9,17 +10,9 @@ $welcomeTextColor: #eaeaea;
 
 .inner{
   background-color: rgba(0, 0, 0, 0.75);
-  background-image: url('/images/frame.png');
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   color: #fff;
   font-family: 'Dancing Script', cursive;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .leadText{
@@ -27,10 +20,10 @@ $welcomeTextColor: #eaeaea;
   text-align: center;
   color: #fff;
   font-size: 3rem;
-  // line-height: 3rem;
   display: flex;
   align-items: center;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+  justify-content: center;
 
   small{
     font-size: 50%;
@@ -55,6 +48,7 @@ $welcomeTextColor: #eaeaea;
   margin-top: 1.5rem;
   text-align: center;
   color: $welcomeTextColor;
+  line-height: 1.25;
 }
 
 .divider{
@@ -68,7 +62,6 @@ $welcomeTextColor: #eaeaea;
 
 .mainImg{
   max-width: 12rem;
-  margin-bottom: 1rem;
 }
 
 @keyframes zoom {
@@ -83,4 +76,119 @@ $welcomeTextColor: #eaeaea;
 .arrowSection{
   margin-top: 1rem;
   opacity: 0.5;
+}
+
+.contentSection{
+  height: 100%;
+  text-align: center;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+.arrowRotate{
+  transform: rotate(180deg);
+}
+
+.timings{
+  text-align: center;
+font-family: 'Kaushan Script', cursive;
+  font-size: 1.25rem;
+  color: $timingsTextColor;
+  
+
+  h4{
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #fff
+  }
+}
+
+.iframe{
+  border: 0;
+}
+
+.flower{
+  max-width: 100%;
+  display: block;
+}
+
+.imgContainer{
+  position: relative;
+
+  img{
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.heartWrap{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0.4;
+}
+
+.heart {
+  position: relative;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 4s infinite;
+  margin:0 auto;
+}
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #fff;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+     -moz-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+       -o-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+.heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+     -moz-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+       -o-transform-origin: 100% 100%;
+          transform-origin :100% 100%;
+}
+
+
+
+@keyframes heartbeat
+{
+0%
+{
+  transform: scale( 2.5 );
+}
+50%
+{
+  transform: scale( 3 );
+}
+100%
+{
+  transform: scale( 2.5 );
+}
+
 }
