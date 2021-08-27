@@ -82,7 +82,6 @@ $timingsTextColor: #eaeaea;
   height: 100%;
   text-align: center;
   overflow: auto;
-  padding: 0 2rem;
 }
 
 .arrowRotate{
@@ -301,4 +300,8 @@ font-family: 'Kaushan Script', cursive;
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
+}
+
+.body{
+  padding: 0 2rem;
 }
