@@ -20,7 +20,7 @@ export default function Home() {
             <img className={`${styles.flower} ${styles.flowerTop}`} src="/images/frame.png" alt="Frame" />
             <img className={styles.divider} src="/images/divider.png" alt="Divider" />
             <div className={styles.welcomeText}>
-              Together with their families,
+              Together with their families
             </div>
             <div className={styles.imgContainer}>
               <img className={styles.mainImg} src="/images/rajesh-shivani.png" alt="Caricature" />
@@ -29,7 +29,7 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.welcomeText2}>
-              request the honor of your presence on the auspicious occasion of the wedding ceremony
+              request the honor of your presence on the auspicious occasion of the wedding ceremony of
             </div>
             <div className={styles.leadText}>
               <div>Rajesh</div>
@@ -38,7 +38,7 @@ export default function Home() {
             </div>
             <div className={styles.timings}>
               <div>
-                <h4>Wedding: </h4>
+                <h4>Wedding </h4>
                 <div>
                   Thursday, 09th September 2021
                 </div>
@@ -47,7 +47,7 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <h4>Reception: </h4>
+                <h4>Reception </h4>
                 <div>
                   Wednesday, 08th September 2021
                 </div>
@@ -56,7 +56,7 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <h4>Venue: </h4>
+                <h4>Venue </h4>
                 <div>
                   Hotel Green Park, <br />
                   <small>Vadapalani (Near Forum Mall)</small>

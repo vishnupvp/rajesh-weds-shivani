@@ -1,5 +1,5 @@
 $welcomeTextColor: #eaeaea;
-$timingsTextColor: #c3c3c3;
+$timingsTextColor: #eaeaea;
 
 .wrapper{
   background: url('/images/cover2.jpg');
@@ -100,8 +100,9 @@ font-family: 'Kaushan Script', cursive;
     text-transform: uppercase;
     padding-bottom: 5px;
     margin-top: 2rem;
-    font-size: 1rem;
-    color: #fff
+    font-size: 0.875rem;
+    color: #fff;
+    letter-spacing: 3px;
   }
 }
 
