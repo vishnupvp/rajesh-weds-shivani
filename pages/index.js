@@ -40,9 +40,7 @@ export default function Home() {
       <div className={styles.wrapper}>
         <div className={styles.inner}>
           <section className={styles.contentSection}>
-            <div>
-              <img className={`${styles.flower} ${styles.flowerTop}`} src="/images/frame.png" alt="Frame" />
-            </div>
+            <div className={styles.frameHeader}></div>
             <div className={styles.body}>
               <img className={styles.divider} src="/images/divider.png" alt="Divider" />
               <div className={styles.welcomeText}>
@@ -95,7 +93,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-4">
-              <img className={`${styles.flower} ${styles.flowerBottom}`} src="/images/frame.png" alt="Frame" />
+              <div className={styles.frameHeader}></div>
             </div>
           </section>
         </div>

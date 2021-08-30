@@ -305,3 +305,10 @@ font-family: 'Kaushan Script', cursive;
 .body{
   padding: 0 2rem;
 }
+
+.frameHeader{
+  background: url('/images/frame.png');
+  background-size: cover;
+  height: 6rem;
+  background-position: center;
+}
